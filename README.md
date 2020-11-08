@@ -8,3 +8,5 @@ The first one, named "Beamer", contains a source code from overleaf and the pdf 
 The second one, name "Code", contains a .py file with all the Python code I used and a html file with the R code, the Python code and the results of these codes.
 The last folder contains an article that details all of the project and the conclusions.
 
+You will also find a video that is an oral summary of the results.
+
