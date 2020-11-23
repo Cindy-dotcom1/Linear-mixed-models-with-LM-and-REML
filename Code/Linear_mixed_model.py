@@ -30,6 +30,7 @@ def Beta_estimated(x):
     R = x[1] * np.identity(21)
     V = (Z.T@G @ Z)+R
     Beta = np.linalg.inv(X@np.linalg.inv(V)@X.T)@X@np.linalg.inv(V)@Y #Manual estimation of the coefficients
+    # BEWARE: never do this inv step !!! use a linear solver instead of a matrix inversion...
     return(Beta) 
 
 
